@@ -15,7 +15,7 @@ class GoRestRepository
     private string $apiUrl;
     private HttpClientInterface $client;
 
-    public function __construct(string $apiUrl, HttpClientInterface $client)
+    public function __construct(string $apiUrl, string $token, HttpClientInterface $client)
     {
         $this->apiUrl = $apiUrl;
         $this->client = $client;

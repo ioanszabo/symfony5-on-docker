@@ -48,7 +48,7 @@ class GoRestRepositoryTest extends TestCase
             ]
         );
 
-        $goResRepository = new GoRestRepository('https://gorest.co.in/public-api/', $client);
+        $goResRepository = new GoRestRepository('https://gorest.co.in/public-api/', $_ENV['GOREST_API_TOKEN'], $client, );
         $users = $goResRepository->getUsers(1);
         $this->assertTrue($users[0]->getSource() === GoRestUserAdapter::SOURCE);
     }

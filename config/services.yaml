@@ -35,6 +35,7 @@ services:
     App\Component\GoRest\Repository\GoRestRepository:
         arguments:
             $apiUrl: '%env(GOREST_API)%'
+            $token: '%env(GOREST_API_TOKEN)%'
 
     App\Component\Reqres\Repository\ReqresRepository:
         arguments:
