@@ -93,23 +93,20 @@ class UserService
         $reqResUsers = [];
         if (!$source || $source === GoRestUserAdapter::SOURCE) {
             $goRestUsers = $this->goRestRepository->getUsers($page);
+            $goRestUsers = array_map(
+                fn(GoRestUserEntity $goRestUserEntity) => new GoRestUserAdapter($goRestUserEntity),
+                $goRestUsers
+            );
         }
 
         if (!$source || $source === ReqResUserAdapter::SOURCE) {
             $reqResUsers = $this->reqresRepository->getUsers($page);
+            $reqResUsers = array_map(
+                fn(ReqResUserEntity $reqResUserEntity) => new ReqResUserAdapter($reqResUserEntity),
+                $reqResUsers
+            );
         }
-
-        $goRestUsers = array_map(
-            fn(GoRestUserEntity $goRestUserEntity) => new GoRestUserAdapter($goRestUserEntity),
-            $goRestUsers
-        );
-
-        $reqResUsers = array_map(
-            fn(ReqResUserEntity $reqResUserEntity) => new ReqResUserAdapter($reqResUserEntity),
-            $reqResUsers
-        );
-
-
+        
         return array_merge($goRestUsers, $reqResUsers);
     }
 

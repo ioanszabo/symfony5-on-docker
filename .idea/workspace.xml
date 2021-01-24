@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4fa60e5f-d82e-4d4c-b7f0-d3813a52db5f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/GoRest/Repository/GoRestRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/GoRest/Repository/GoRestRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Reqres/Repository/ReqresRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Reqres/Repository/ReqresRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Service/UserService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/UserService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Component/GoRest/GoRestRepositoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Component/GoRest/GoRestRepositoryTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Component/RegRes/ReqresRepositoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Component/RegRes/ReqresRepositoryTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,22 +247,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="410" y="173" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1611504390281" />
-    <state width="1323" height="239" key="GridCell.Tab.0.bottom" timestamp="1611515840127">
+    <state width="1323" height="239" key="GridCell.Tab.0.bottom" timestamp="1611516797360">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611515840127" />
-    <state width="1323" height="239" key="GridCell.Tab.0.center" timestamp="1611515840126">
+    <state width="1323" height="239" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611516797360" />
+    <state width="1323" height="239" key="GridCell.Tab.0.center" timestamp="1611516797359">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611515840126" />
-    <state width="1323" height="239" key="GridCell.Tab.0.left" timestamp="1611515840126">
+    <state width="1323" height="239" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611516797359" />
+    <state width="1323" height="239" key="GridCell.Tab.0.left" timestamp="1611516797359">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611515840126" />
-    <state width="1323" height="239" key="GridCell.Tab.0.right" timestamp="1611515840126">
+    <state width="1323" height="239" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611516797359" />
+    <state width="1323" height="239" key="GridCell.Tab.0.right" timestamp="1611516797360">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611515840126" />
+    <state width="1323" height="239" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611516797360" />
     <state width="1323" height="212" key="GridCell.Tab.1.bottom" timestamp="1611422173531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
