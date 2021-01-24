@@ -2,7 +2,6 @@
 
 namespace App\Component\GoRest\Repository;
 
-use App\Entity\GenericUser;
 use Symfony\Contracts\HttpClient\Exception\ClientExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\DecodingExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\RedirectionExceptionInterface;
@@ -22,7 +21,7 @@ class GoRestRepository
     }
 
     /**
-     * @return GenericUser[]
+     * @return GoRestUserEntity[]
      * @throws ClientExceptionInterface
      * @throws DecodingExceptionInterface
      * @throws TransportExceptionInterface
@@ -38,7 +37,7 @@ class GoRestRepository
 
         $users = $response->toArray()['data'];
 
-        $goRestUsers = array_map(
+        return array_map(
             fn(array $user) => new GoRestUserEntity(
                 $user['id'],
                 $user['name'],
@@ -49,11 +48,6 @@ class GoRestRepository
                 $user['updated_at']
             ),
             $users
-        );
-
-        return array_map(
-            fn(GoRestUserEntity $goRestUserEntity) => new GoRestUserAdapter($goRestUserEntity),
-            $goRestUsers
         );
     }
 }

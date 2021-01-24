@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4fa60e5f-d82e-4d4c-b7f0-d3813a52db5f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/GoRest/Repository/GoRestRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/GoRest/Repository/GoRestRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Reqres/Repository/ReqresRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Reqres/Repository/ReqresRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/UserService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/UserService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Component/GoRest/GoRestRepositoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Component/GoRest/GoRestRepositoryTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Component/RegRes/ReqresRepositoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Component/RegRes/ReqresRepositoryTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +131,7 @@
       <recent name="C:\Programming\TESTS\bs-test\src" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.GoRestRepositoryTest.hasSourceAttribute">
+  <component name="RunManager" selected="PHPUnit.tests">
     <configuration name="GoRestRepositoryTest.hasSourceAttribute" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="App\Tests\Component\GoRest\GoRestRepositoryTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/tests/Component/GoRest/GoRestRepositoryTest.php" method="hasSourceAttribute" scope="Method" />
       <method v="2" />
@@ -150,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.GoRestRepositoryTest.hasSourceAttribute" />
         <item itemvalue="PHPUnit.tests" />
+        <item itemvalue="PHPUnit.UserControllerTest" />
+        <item itemvalue="PHPUnit.GoRestRepositoryTest.hasSourceAttribute" />
         <item itemvalue="PHPUnit.UserControllerTest.getGoRestUsersOnly" />
         <item itemvalue="PHPUnit.ReqresRepositoryTest.hasSourceAttribute" />
-        <item itemvalue="PHPUnit.UserControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +194,8 @@
       <workItem from="1611507993377" duration="278000" />
       <workItem from="1611511138017" duration="1759000" />
       <workItem from="1611512945074" duration="355000" />
-      <workItem from="1611513327363" duration="283000" />
+      <workItem from="1611513327363" duration="1763000" />
+      <workItem from="1611515144224" duration="959000" />
     </task>
     <servers />
   </component>
@@ -222,6 +227,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1611403591586" />
+    <state x="804" y="118" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0" timestamp="1611514766351">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="804" y="118" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0/0.0.1366.728@0.0.1366.728" timestamp="1611514766351" />
+    <state x="502" y="71" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1" timestamp="1611514537013">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="502" y="71" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1/0.0.1366.728@0.0.1366.728" timestamp="1611514537013" />
     <state x="438" y="67" key="#xdebugger.evaluate" timestamp="1611422131707">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -238,22 +251,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="410" y="173" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1611504390281" />
-    <state width="1323" height="239" key="GridCell.Tab.0.bottom" timestamp="1611422177087">
+    <state width="1323" height="239" key="GridCell.Tab.0.bottom" timestamp="1611515840127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611422177087" />
-    <state width="1323" height="239" key="GridCell.Tab.0.center" timestamp="1611422177087">
+    <state width="1323" height="239" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611515840127" />
+    <state width="1323" height="239" key="GridCell.Tab.0.center" timestamp="1611515840126">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611422177087" />
-    <state width="1323" height="239" key="GridCell.Tab.0.left" timestamp="1611422177087">
+    <state width="1323" height="239" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611515840126" />
+    <state width="1323" height="239" key="GridCell.Tab.0.left" timestamp="1611515840126">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611422177087" />
-    <state width="1323" height="239" key="GridCell.Tab.0.right" timestamp="1611422177087">
+    <state width="1323" height="239" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611515840126" />
+    <state width="1323" height="239" key="GridCell.Tab.0.right" timestamp="1611515840126">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611422177087" />
+    <state width="1323" height="239" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611515840126" />
     <state width="1323" height="212" key="GridCell.Tab.1.bottom" timestamp="1611422173531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -298,11 +311,6 @@
           <url>file://$PROJECT_DIR$/tests/Controller/UserControllerTest.php</url>
           <line>24</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/Component/GoRest/Repository/GoRestRepository.php</url>
-          <line>33</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/tests/Component/GoRest/GoRestRepositoryTest.php</url>

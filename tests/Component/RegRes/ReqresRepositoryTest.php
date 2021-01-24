@@ -48,6 +48,7 @@ class ReqresRepositoryTest extends TestCase
 
         $reqresRepository = new ReqresRepository('https://reqres.in/api/', $client);
         $users = $reqresRepository->getUsers(1);
-        $this->assertTrue($users[0]->getSource() === ReqResUserAdapter::SOURCE);
+        $adaptedUser = new ReqResUserAdapter($users[0]);
+        $this->assertTrue($adaptedUser->getSource() === ReqResUserAdapter::SOURCE);
     }
 }

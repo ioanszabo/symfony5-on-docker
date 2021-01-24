@@ -2,7 +2,6 @@
 
 namespace App\Component\Reqres\Repository;
 
-use App\Entity\GenericUser;
 use Symfony\Contracts\HttpClient\Exception\ClientExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\DecodingExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\RedirectionExceptionInterface;
@@ -22,7 +21,7 @@ class ReqresRepository
     }
 
     /**
-     * @return GenericUser[]
+     * @return ReqResUserEntity[]
      * @throws ClientExceptionInterface
      * @throws DecodingExceptionInterface
      * @throws TransportExceptionInterface
@@ -38,7 +37,7 @@ class ReqresRepository
 
         $users = $response->toArray()['data'];
 
-        $reqresUsers = array_map(
+        return array_map(
             fn(array $user) => new ReqResUserEntity(
                 $user['avatar'],
                 $user['email'],
@@ -47,11 +46,6 @@ class ReqresRepository
                 $user['last_name'],
             ),
             $users
-        );
-
-        return array_map(
-            fn(ReqResUserEntity $reqResUserEntity) => new ReqResUserAdapter($reqResUserEntity),
-            $reqresUsers
         );
     }
 }
