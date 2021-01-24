@@ -16,6 +16,7 @@ application for testing purposes.
 
 #### Todo
 - Fix the issue with main and master branches
+- Rename api collection
 - Group all directories related to the app into a directory called app
 - Group all directory related to Docker into one called docker
 - Add https support
