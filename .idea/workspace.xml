@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa60e5f-d82e-4d4c-b7f0-d3813a52db5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/php/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +189,9 @@
       <workItem from="1611504344548" duration="1850000" />
       <workItem from="1611506216342" duration="925000" />
       <workItem from="1611507993377" duration="278000" />
-      <workItem from="1611511138017" duration="401000" />
+      <workItem from="1611511138017" duration="1759000" />
+      <workItem from="1611512945074" duration="355000" />
+      <workItem from="1611513327363" duration="80000" />
     </task>
     <servers />
   </component>
@@ -204,6 +207,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="210" y="38" key="#Test_Frameworks/0.0.1366.728@0.0.1366.728" timestamp="1611344677474" />
+    <state x="446" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611513404142">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="446" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1611513404142" />
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1611403597591">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
